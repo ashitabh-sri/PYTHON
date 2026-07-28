@@ -43,3 +43,11 @@ sim = text[::] # whole string from left to right
 rev = text[::-1] # for traversing right to left
 print(sim)
 print(rev)
+
+first, second = input().split()
+fn = ord(first) # converts a character to its Integer code
+sn = ord(second)
+print(fn + sn)
+
+num = int(input())
+print(chr(num)) # converts integer to its Character

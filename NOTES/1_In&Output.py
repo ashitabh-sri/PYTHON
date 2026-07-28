@@ -9,7 +9,8 @@ print(21)
 
 """Can add SPACE using
 comma in print"""
-print("Hello Universe", 'Both single and double quotes are used to print strings')
+print("Hello Universe! This is Ashitabh Srivastava learning PYTHON programming language.")
+print('Both single and double quotes are used to print strings')
 
 # Taking input from user
 x = input() # assumes input in string

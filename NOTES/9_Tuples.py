@@ -1,10 +1,11 @@
-student = (["Alice", "Bob"], ["Math", "Science", "English"], 20, 'XYZ') # can store different types together
+# Tuples - can store different types together
+student = (["Alice", "Bob"], ["Math", "Science", "English"], 20, 'XYZ')
 
-nam, sub, n, S = student # unpacking Tuple
+nam, sub, n, s = student # unpacking Tuple
 print(nam[1])
 print(sub[2])
 print(n)
-print(S)
+print(s)
 
 student = ([2, 2], [2, 2, 2], 2, 2, 3) # Immutable, Duplicates allowed
 print(len(student)) # no. of elements
