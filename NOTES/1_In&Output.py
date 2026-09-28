@@ -6,10 +6,13 @@ print(3.14)
 print(8)
 print(13, end=" ") # stop the skip to new line
 print(21)
+print(5+3/2)
 
-"""Can add SPACE using
-comma in print"""
-print("Hello Universe! This is Ashitabh Srivastava learning PYTHON programming language.")
+"""
+Can add SPACE using
+comma in print
+"""
+print("Hello Universe!", "This is Ashitabh Srivastava learning PYTHON programming language.")
 print('Both single and double quotes are used to print strings')
 
 # Taking input from user
